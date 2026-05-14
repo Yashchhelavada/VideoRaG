@@ -1,0 +1,11 @@
+# --- Core RAG & Data ---
+pandas
+numpy
+scikit-learn
+joblib
+
+# --- LLM & API Clients ---
+openai
+requests
+python-dotenv
+
