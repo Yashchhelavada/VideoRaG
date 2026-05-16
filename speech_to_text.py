@@ -1,15 +1,26 @@
 import whisper
 import json
 
-model = whisper.load_model("small").to("cuda")
-result = model.transcribe(audio = "audios/sample.mp3",
-                          word_timestamps = False )
-print(result["segments"])
-chunks = []
+model = whisper.load_model("small").to("cpu")
+
+result = model.transcribe(
+    audio="audios/tutorial-1.mkv.mp3",
+    word_timestamps=False
+)
+
+formatted = {
+    "chunks": []
+}
+
 for segment in result["segments"]:
-    chunks.append({"start": segment["start"],"end": segment["end"], "text": segment["text"]})
+    formatted["chunks"].append({
+        "audio": "tutorial-1.mkv.mp3",
+        "start": segment["start"],
+        "end": segment["end"],
+        "text": segment["text"]
+    })
 
-print(chunks)
-with open("output.json", "w") as f:
-    json.dump(chunks, f, indent=4)             
+print(formatted)
 
+with open("jsons/tutorial-1.json", "w") as f:
+    json.dump(formatted, f, indent=4)

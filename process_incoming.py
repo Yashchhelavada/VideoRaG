@@ -6,10 +6,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import requests
 from dotenv import load_dotenv
 from openai import OpenAI
-
+import os
 
 load_dotenv()
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("GROQ_API_KEY")
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
     api_key=API_KEY)
@@ -71,6 +71,8 @@ with open('prompt.txt','w') as f:
     f.write(prompt)
 
 response = inference_openai(prompt)
+print("\nResponse:\n")
+print(response)
 
 with open("response.txt", "w") as f:
     f.write(response)

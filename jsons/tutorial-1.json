@@ -1,0 +1,22 @@
+{
+    "chunks": [
+        {
+            "audio": "tutorial-1.mkv.mp3",
+            "start": 0.0,
+            "end": 2.06,
+            "text": " you"
+        },
+        {
+            "audio": "tutorial-1.mkv.mp3",
+            "start": 30.0,
+            "end": 32.06,
+            "text": " you"
+        },
+        {
+            "audio": "tutorial-1.mkv.mp3",
+            "start": 60.0,
+            "end": 62.06,
+            "text": " you"
+        }
+    ]
+}

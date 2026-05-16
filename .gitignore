@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+videos/
+audios/
+
+*.joblib
+
+prompt.txt
+response.txt
+
+.cache/
