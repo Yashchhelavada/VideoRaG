@@ -8,6 +8,24 @@ Finding specific information in a large collection of video tutorials or recorde
 
 This AI Assistant solves that by allowing you to feed in your videos and retrieve exact timestamps, source video references, and summaries simply by asking natural language questions.
 
+## ✨ Architecture
+
+Video File
+   ↓
+FFmpeg Audio Extraction
+   ↓
+Whisper Transcription
+   ↓
+Transcript Chunking
+   ↓
+Ollama Embeddings
+   ↓
+Vector Similarity Search
+   ↓
+Groq LLM Inference
+   ↓
+Contextual Answer Generation
+
 ## ✨ Features
 - **Video Transcription:** Automatically extracts audio and converts it to text with precise timestamps.
 - **Semantic Search:** Uses vector embeddings to find the most relevant video segments based on meaning, not just keyword matching.
@@ -41,6 +59,8 @@ Before running the project, ensure you have the following installed:
 
 2. **Install Python dependencies:**
    ```bash
+   python3 -m venv venv
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
@@ -48,6 +68,11 @@ Before running the project, ensure you have the following installed:
    Create a `.env` file in the root directory and add your Groq API key:
    ```env
    API_KEY=your_groq_api_key_here
+   ```
+4. **Install FFmeg:**
+   Ubuntu
+   ```sudo apt update
+      sudo apt install ffmpeg
    ```
 
 ## 📖 How to Use
