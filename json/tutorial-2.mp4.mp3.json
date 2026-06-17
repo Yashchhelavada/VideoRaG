@@ -1,0 +1,329 @@
+{
+    "chunks": [
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 0.0,
+            "end": 10.72,
+            "text": " Hey everyone, welcome back to Simply Explain. Today we're diving into a buzzword you've"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 10.72,
+            "end": 15.6,
+            "text": " definitely heard before. Machine learning. It's used in everything from recommending"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 15.6,
+            "end": 21.240000000000002,
+            "text": " what to watch next on Netflix to detecting spam emails. But what exactly is machine learning"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 21.240000000000002,
+            "end": 26.240000000000002,
+            "text": " and how does it work? Well, you're in the right place. Let's break it down in the simplest"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 26.24,
+            "end": 33.12,
+            "text": " way possible. Imagine you're learning to play a new game, like chess. When you first start,"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 33.12,
+            "end": 38.2,
+            "text": " you don't know much about strategies or moves. So you play a lot of games, make mistakes,"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 38.2,
+            "end": 43.599999999999994,
+            "text": " learn from them, and gradually improve. Machine learning works pretty much the same way. Instead"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 43.599999999999994,
+            "end": 49.08,
+            "text": " of humans learning from experience, it's computers learning from data. By analyzing thousands"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 49.08,
+            "end": 54.16,
+            "text": " or even millions of game moves, a computer can figure out patterns and strategies all"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 54.239999999999995,
+            "end": 61.279999999999994,
+            "text": " on its own. So in short, the data is the experience. The patterns are the strategies. The computer"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 61.279999999999994,
+            "end": 66.6,
+            "text": " is the learner. Alright, let's put that into technical terms. Machine learning is a branch"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 66.6,
+            "end": 71.64,
+            "text": " of artificial intelligence that allows computers to learn and make decisions without being"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 71.64,
+            "end": 78.08,
+            "text": " explicitly programmed. There are three main types of machine learning. Supervised learning."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 78.08,
+            "end": 83.12,
+            "text": " This is like having a coach. You give the computer labeled data examples with correct"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 83.2,
+            "end": 90.44,
+            "text": " answers so it can learn from them. Example. Spam detection in emails. You train the system"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 90.44,
+            "end": 97.08000000000001,
+            "text": " with labeled examples of spam and not spam, and it learns to identify spam on its own."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 97.08000000000001,
+            "end": 102.88000000000001,
+            "text": " Unsupervised learning. Here there's no coach. The computer gets unlabeled data and has to"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 102.88000000000001,
+            "end": 109.56,
+            "text": " find patterns all by itself. Example. Grouping similar customer profiles together based on"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 109.60000000000001,
+            "end": 116.2,
+            "text": " their purchasing habits. Reinforcement learning. This is like training a dog with treats. The"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 116.2,
+            "end": 121.08,
+            "text": " computer learns by trial and error, getting rewards for correct actions and penalties"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 121.08,
+            "end": 127.12,
+            "text": " for wrong ones. Example. Self driving cars learning to navigate roads safely. These"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 127.12,
+            "end": 131.56,
+            "text": " three types cover most of what you see in real world applications. Let's take a look"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 131.56,
+            "end": 138.08,
+            "text": " at some real world examples. Netflix recommendations. Every time you watch a show that data helps"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 138.12,
+            "end": 144.12,
+            "text": " train the recommendation algorithm to suggest new content. Voice assistance like Siri or"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 144.12,
+            "end": 149.48000000000002,
+            "text": " Alexa. They use machine learning to understand and respond to your commands more accurately"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 149.48000000000002,
+            "end": 156.48000000000002,
+            "text": " over time. Fraud detection. Banks use machine learning to detect unusual patterns and transactions"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 156.56,
+            "end": 161.52,
+            "text": " that could indicate fraud. From healthcare to finance to social media, machine learning"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 161.56,
+            "end": 167.72,
+            "text": " is literally everywhere. Let's break down how it actually works. Step by step. Data"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 167.72,
+            "end": 173.72,
+            "text": " collection. First you gather a lot of data, like a coach recording every move in a game."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 173.72,
+            "end": 179.36,
+            "text": " Training. This data is used to train a model, which is like teaching a player strategies"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 179.36,
+            "end": 185.48000000000002,
+            "text": " based on past games. Testing. The model is then tested on new data to see how well it"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 185.48,
+            "end": 192.48,
+            "text": " performs. Deployment. Once it passes the tests, it's ready to be used in real world applications."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 192.95999999999998,
+            "end": 198.04,
+            "text": " This process repeats continuously to keep the model accurate and up to date. Now you"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 198.04,
+            "end": 202.44,
+            "text": " might be wondering, what are the strategies that these machines learn? In the world of"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 202.44,
+            "end": 207.07999999999998,
+            "text": " machine learning, these strategies are called algorithms. Some of the most popular ones"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 207.07999999999998,
+            "end": 214.07999999999998,
+            "text": " include decision trees, like a flow chart that helps make decisions based on yes, no questions."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 214.08,
+            "end": 219.84,
+            "text": " Design networks. Inspired by the human brain, these are used for things like image and speech"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 219.84,
+            "end": 225.56,
+            "text": " recognition. K-Means clustering. A way to find patterns in data by grouping similar items"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 225.56,
+            "end": 231.76000000000002,
+            "text": " together. Each algorithm is designed for different kinds of problems, from identifying images"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 231.76000000000002,
+            "end": 237.08,
+            "text": " to predicting stock prices. So why all the hype around machine learning? Here's why it"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 237.08,
+            "end": 243.08,
+            "text": " matters. Automation. It can automate tasks that would take humans hours or even days."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 243.20000000000002,
+            "end": 248.48000000000002,
+            "text": " Accuracy. Models can find patterns and make predictions faster and more accurately than"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 248.48000000000002,
+            "end": 254.68,
+            "text": " humans. Scalability. As more data becomes available, machine learning systems get better."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 254.68,
+            "end": 259.32,
+            "text": " Personalization. It enables personalized recommendations in everything from shopping"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 259.32,
+            "end": 264.52000000000004,
+            "text": " to healthcare. In short, machine learning is reshaping industries by making them more"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 264.52000000000004,
+            "end": 270.84000000000003,
+            "text": " efficient, intelligent and personalized. Let's quickly recap using our game analogy."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 270.96,
+            "end": 276.15999999999997,
+            "text": " Data is the past games you've played. Algorithms are the strategies you develop based on those"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 276.15999999999997,
+            "end": 281.35999999999996,
+            "text": " games. Machine learning is the process of learning and improving those strategies automatically."
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 281.35999999999996,
+            "end": 286.08,
+            "text": " And that's the magic behind how machines learn, without being explicitly programmed for every"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 286.08,
+            "end": 291.28,
+            "text": " single task. And that's machine learning, simply explained. From recommending videos"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 291.28,
+            "end": 296.84,
+            "text": " to recognizing your face in photos, it's everywhere. And now you know how it works. If you found"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 296.84,
+            "end": 302.11999999999995,
+            "text": " this video helpful, hit that like button and subscribe for more tech topics explained in"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 302.11999999999995,
+            "end": 308.56,
+            "text": " simple terms. Got questions or a topic suggestion? Drop them in the comments below. Thanks for"
+        },
+        {
+            "audio": "tutorial-2.mp4.mp3",
+            "start": 308.56,
+            "end": 311.2,
+            "text": " watching and I'll see you next time on Simply Explained."
+        }
+    ],
+    "text": " Hey everyone, welcome back to Simply Explain. Today we're diving into a buzzword you've definitely heard before. Machine learning. It's used in everything from recommending what to watch next on Netflix to detecting spam emails. But what exactly is machine learning and how does it work? Well, you're in the right place. Let's break it down in the simplest way possible. Imagine you're learning to play a new game, like chess. When you first start, you don't know much about strategies or moves. So you play a lot of games, make mistakes, learn from them, and gradually improve. Machine learning works pretty much the same way. Instead of humans learning from experience, it's computers learning from data. By analyzing thousands or even millions of game moves, a computer can figure out patterns and strategies all on its own. So in short, the data is the experience. The patterns are the strategies. The computer is the learner. Alright, let's put that into technical terms. Machine learning is a branch of artificial intelligence that allows computers to learn and make decisions without being explicitly programmed. There are three main types of machine learning. Supervised learning. This is like having a coach. You give the computer labeled data examples with correct answers so it can learn from them. Example. Spam detection in emails. You train the system with labeled examples of spam and not spam, and it learns to identify spam on its own. Unsupervised learning. Here there's no coach. The computer gets unlabeled data and has to find patterns all by itself. Example. Grouping similar customer profiles together based on their purchasing habits. Reinforcement learning. This is like training a dog with treats. The computer learns by trial and error, getting rewards for correct actions and penalties for wrong ones. Example. Self driving cars learning to navigate roads safely. These three types cover most of what you see in real world applications. Let's take a look at some real world examples. Netflix recommendations. Every time you watch a show that data helps train the recommendation algorithm to suggest new content. Voice assistance like Siri or Alexa. They use machine learning to understand and respond to your commands more accurately over time. Fraud detection. Banks use machine learning to detect unusual patterns and transactions that could indicate fraud. From healthcare to finance to social media, machine learning is literally everywhere. Let's break down how it actually works. Step by step. Data collection. First you gather a lot of data, like a coach recording every move in a game. Training. This data is used to train a model, which is like teaching a player strategies based on past games. Testing. The model is then tested on new data to see how well it performs. Deployment. Once it passes the tests, it's ready to be used in real world applications. This process repeats continuously to keep the model accurate and up to date. Now you might be wondering, what are the strategies that these machines learn? In the world of machine learning, these strategies are called algorithms. Some of the most popular ones include decision trees, like a flow chart that helps make decisions based on yes, no questions. Design networks. Inspired by the human brain, these are used for things like image and speech recognition. K-Means clustering. A way to find patterns in data by grouping similar items together. Each algorithm is designed for different kinds of problems, from identifying images to predicting stock prices. So why all the hype around machine learning? Here's why it matters. Automation. It can automate tasks that would take humans hours or even days. Accuracy. Models can find patterns and make predictions faster and more accurately than humans. Scalability. As more data becomes available, machine learning systems get better. Personalization. It enables personalized recommendations in everything from shopping to healthcare. In short, machine learning is reshaping industries by making them more efficient, intelligent and personalized. Let's quickly recap using our game analogy. Data is the past games you've played. Algorithms are the strategies you develop based on those games. Machine learning is the process of learning and improving those strategies automatically. And that's the magic behind how machines learn, without being explicitly programmed for every single task. And that's machine learning, simply explained. From recommending videos to recognizing your face in photos, it's everywhere. And now you know how it works. If you found this video helpful, hit that like button and subscribe for more tech topics explained in simple terms. Got questions or a topic suggestion? Drop them in the comments below. Thanks for watching and I'll see you next time on Simply Explained."
+}

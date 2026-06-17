@@ -3,7 +3,7 @@ import json
 import os
 from tqdm import tqdm
 
-model = whisper.load_model("small").to("cuda")
+model = whisper.load_model("small").to("cpu")
 audios = os.listdir("audios")
 
 for audio in tqdm(audios, desc="Transcribing files"):
